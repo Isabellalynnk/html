@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="javaStuff.js"></script>
+</head>
+<body>
+
+  <img id="myImage" onclick="changeImage()" src="hatsOn.jfif" width="300" height="180">
+
+  <p>Click to graduate.</p>
+
+  <script>
+  function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("bulbon")) {
+      image.src = "hatsOn.jfif";
+    } else {
+      image.src = "hatsOff.jfif";
+    }
+  }
+  </script>
+
+</body>
+</html>

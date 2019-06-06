@@ -1,0 +1,97 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #f71504;
+  color: white;
+}
+a:active {
+  background-color: white;
+}
+article{
+  margin-left: 140px;
+margin-right: 140px;
+}
+header{
+  margin-left: 120px;
+margin-right: 120px;
+}
+p{
+  margin-left: 120px;
+margin-right: 120px;
+font-size: 20px;
+font-weight: 700;
+}
+img{
+  width: 20%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.head-shot{
+  float: right;
+  height: 18%;
+  width:15%;
+  /*margin-left: 20px; */
+  margin-right: 80px;
+  border: 13px inset white;
+  border-radius: 19px;
+}
+}
+.head-shot-hr{
+  width: 60%
+  margin-right: 90%;
+}
+
+.indentP{
+  margin-left: 160px;
+  margin-right: 160px;
+}
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+}
+p{
+  color: white;
+}
+h1, h2{
+  color: white;
+}
+div, iframe {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #777;
+}
+address{
+  color: white;
+}
